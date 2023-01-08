@@ -1,0 +1,75 @@
+body{
+    background-color: #FFB0D2;
+    color: #ffcae1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    
+    
+}
+
+main{
+    background-color: #661739;
+    width: 800px;
+    margin: auto;
+
+}
+
+header{
+    padding-left: 10px;
+}
+
+header h1 {
+    padding-top: 10px;
+}
+
+#botoes{
+    cursor: default;
+}
+
+#botoes p{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.lacuna{
+    width: 50px;
+    height: 22px;
+    position: relative;
+    bottom: 1.5px;
+}
+
+#calcular{
+    margin-left: 10px;
+    height: 29px;
+    position: relative;
+    bottom: 1.5px;
+    cursor: pointer;
+}
+#reset{
+    height: 29px;
+    position: relative;
+    bottom: 1.5px;
+    cursor: pointer;
+}
+
+#resultado{
+    padding-left: 10px;
+    padding-bottom: 150px;
+}
+
+footer{
+    background-color: #661739;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+footer p{
+    margin-top: 0;
+    padding-bottom: 10px;
+    font-size: 0.7em;
+}
+
+
+
