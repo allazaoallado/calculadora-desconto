@@ -11,17 +11,26 @@ main{
     background-color: #661739;
     width: 800px;
     margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 0px #0000008e;
 
 }
 
-header{
+h2{
     padding-left: 10px;
 }
 
-header h1 {
-    padding-top: 10px;
+h1 {
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-bottom: 80px;
+    margin-top: 0;
 }
 
+input{
+    border-color: #ffcae1;
+    border-radius: 2px;
+}
 #botoes{
     cursor: default;
 }
@@ -33,7 +42,7 @@ header h1 {
 }
 
 .lacuna{
-    width: 50px;
+    width: 57px;
     height: 22px;
     position: relative;
     bottom: 1.5px;
@@ -41,13 +50,15 @@ header h1 {
 
 #calcular{
     margin-left: 10px;
-    height: 29px;
+    height: 28px;
+    width: 65px;
     position: relative;
     bottom: 1.5px;
     cursor: pointer;
 }
 #reset{
-    height: 29px;
+    height: 28px;
+    width: 65px;
     position: relative;
     bottom: 1.5px;
     cursor: pointer;
@@ -55,7 +66,55 @@ header h1 {
 
 #resultado{
     padding-left: 10px;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
+}
+
+
+
+#botoes_2 p{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+#botoes_2 input{
+    width: 57px;
+    height: 22px;
+}
+
+input#reset_2{
+    height: 28px;
+    width: 65px;
+    position: relative;
+    cursor: pointer;
+    bottom: 1px;
+}
+
+input#calcular_2{
+    height: 28px;
+    width: 65px;
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.lacuna_2{
+    width: 57px;
+    height: 22px;
+    position: relative;
+    bottom: 1.5px;
+}
+
+#resultado_2 {
+    padding-left: 10px;
+    padding-bottom: 100px;
+    margin-top: 24px;
+
+}
+
+#resultado_2 p{
+    margin-bottom: 0;
 }
 
 footer{
@@ -63,6 +122,7 @@ footer{
     text-align: center;
     width: 800px;
     margin: auto;
+    border-radius: 5px;
 }
 
 footer p{

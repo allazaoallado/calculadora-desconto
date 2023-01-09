@@ -12,8 +12,8 @@
     <main>
         <header>
             <h1>Calculadora de Desconto</h1>
-            <h2>Calcule abaixo o desconto de seu produto</h2>
         </header>
+        <h2>Calcule abaixo o desconto de seu produto</h2>
         <section id="botoes">
             <form action="#">
                 <p>Preço do produto:</p><input type="text" placeholder="Preço" class="lacuna" id="preco">
@@ -26,9 +26,21 @@
             <p id="valor_desconto">O valor de desconto é de:</p>
             <p id="valor_pagar">O valor total a ser pago é de:</p>
         </section>
+        <h2>Calcule abaixo o desconto  a ser aplicado</h2>
+        <section id="botoes_2">
+            <form action="#">
+                <p>Preço do produto:</p><input type="text" placeholder="Preço" class="lacuna_2" id="preco_real">
+                <p>Preço a ser vendido:</p><input type="text" placeholder="Preço" class="lacuna_2" id="preco_final">
+                <input type="button" value="Calcular" id="calcular_2" onclick="calculo2(preco_real = 0,preco_final = 0)">
+                <input type="reset" value="Limpar" id="reset_2" onclick="limpar2()">
+            </form>
+        </section>
+        <section id="resultado_2">
+        <p>O desconto a ser aplicado é de:</p>
+        </section>
+        <footer>
+            <p>Desenvolvido por Allan Souza Cordeiro</p>
+        </footer>
     </main>
-    <footer>
-        <p>Desenvolvido por Allan Souza Cordeiro</p>
-    </footer>
 </body>
 </html>
